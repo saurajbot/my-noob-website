@@ -1,0 +1,358 @@
+body {
+    padding: 0;
+    margin: 0;
+	background: linear-gradient(-60deg, hsl(170, 100%, 50%), hsl(231, 100%, 52%), hsla(0, 80%, 53%, 0.808), rgb(255, 0, 136));
+	background-size: 200% 200%;
+	animation: gradient 3s ease infinite;
+	height: 100vh;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+@keyframes gradient{ 
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+    }
+}
+
+
+  .box{
+	width: 400px;
+	border-radius: 2%;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 20px;
+	text-align: center;
+	position: relative;
+    top: 22px;
+	left:10px;
+	
+	color: white;
+	font-family: 'Century Gothic',sans-serif;
+  }
+  .box:hover {
+	
+	animation-name: example;
+	animation-duration: 0.25s;
+	
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  .box-img{
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+  }
+  .box-img:hover{
+	border-radius: 50%;
+	width: 320px;
+	height: 320px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+  }
+  .box h1{
+	font-size: 35px;
+	letter-spacing: 4px;
+	font-weight: 100;
+	font-family: 'Dancing Script', cursive;
+	margin-top: 1.5px;
+	margin-bottom: 1.5px;
+  }
+    .box h1:hover{
+	font-size: 42px;
+	letter-spacing: 5px;
+	font-weight: 100;
+	font-family: 'Dancing Script', cursive;
+	margin-top: 1.5px;
+	margin-bottom: 1.5px;
+  }
+
+  .box h5{
+	font-size: 28px;
+	letter-spacing: 3px;
+	font-weight: 100;
+	font-family: 'Baloo 2', cursive;
+	margin-top: 1.5px;
+	margin-bottom: 1.5px;	
+  }
+  .box h5:hover{
+	font-size: 31px;
+	letter-spacing: 3px;
+	font-weight: 100;
+	font-family: 'Baloo 2', cursive;
+	margin-top: 1.2px;
+	margin-bottom: 1.2px;
+  }
+  .box p{
+	text-align: justify;
+	font-size: 20px;
+    letter-spacing: 1px;
+	#font-family: 'Lobster', cursive;
+  }
+  .box p:hover{
+	text-align: justify;
+	font-size: 21px;
+    letter-spacing: 1px;
+	#font-family: 'Lobster', cursive;
+  }
+
+
+
+.github{
+	width: 400px;
+	height:400px;
+	border-radius: 5%;
+	background-image:url("github.png")   ;
+	background-size: cover;
+	opacity: 70%;
+	border-style: solid;
+	border-color: black;
+	border-width: 8px;	
+	text-align: center;
+	position: relative;
+	bottom: 815px;
+	left:500px;
+	color: white;
+	font-family: 'Century Gothic',sans-serif;
+	transition: background-image 1s ease-in-out;
+}
+
+.github:hover{
+animation-name: example;
+animation-duration: 2s;
+box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+background-image: url("github.png");
+background-size: cover;
+opacity: 60%;
+transition: background-image 0.8s cubic-bezier(0.1, 0.7, 1.0, 0.1);
+width: 410px;
+height:410px;
+}
+.githubh1{
+opacity: 0;
+transition: opacity 1s ease-in-out;
+width: 400px;
+height:400px;
+font-size: 20px;
+font-family: 'Permanent Marker', cursive;
+position: relative;
+top:50px;
+color:white;
+text-decoration: none;
+}
+.githubh1:hover{
+	opacity: 1;
+	transition: opacity 2s ease-in-out;
+}
+.a:link{
+	text-decoration: none;
+}
+.a:active{
+	text-decoration: none;
+}
+.a:visited{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+
+.twitter{
+	width: 400px;
+	height:400px;
+	border-radius: 5%;
+	background-image:url("twitter-hoover.png")   ;
+	background-size: cover;
+	opacity: 70%;
+	border-style: solid;
+	border-color: black;
+	border-width: 8px;	
+	text-align: center;
+	position: relative;
+	bottom: 805px;
+	left:500px;
+	color: white;
+	font-family: 'Century Gothic',sans-serif;
+	transition: background-image 1s ease-in-out;
+
+}
+
+.twitter:hover{
+animation-name: example;
+animation-duration: 0.25s;
+box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+background-image: url("twitter-hoover.png");
+background-size: cover;
+opacity: 80%;
+transition: background-image 1s ease-in-out;
+width: 410px;
+height:410px;
+}
+.twitterh1{
+opacity: 0;
+transition: opacity 1s ease-in-out;
+width: 400px;
+height:400px;
+font-size: 20px;
+font-family: 'Permanent Marker', cursive;
+position: relative;
+top:50px;
+color:rgb(255, 255, 255);
+
+}
+.twitterh1:hover{
+	opacity: 1;
+	transition: opacity 2s ease-in-out;
+}
+
+
+.telegram{
+	width: 400px;
+	height:400px;
+	border-radius: 5%;
+	background-image:url("telegram-hoover.png")   ;
+	background-size: cover;
+	opacity: 70%;
+	border-style: solid;
+	border-color: black;
+	border-width: 8px;
+	text-align: center;
+	position: relative;
+	bottom: 1220px;
+	left:945px;
+	color: white;
+	font-family: 'Century Gothic',sans-serif;
+	transition: background-image 1s ease-in-out;
+}
+
+.telegram:hover{
+animation-name: example;
+animation-duration: 0.25s;
+box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+background-image: url("telegram-hoover.png");
+background-size: cover;
+opacity: 80%;
+transition: background-image 1s ease-in-out;
+width: 410px;
+height:410px;
+}
+.telegramh1{
+opacity: 0;
+transition: opacity 1s ease-in-out;
+width: 400px;
+height:400px;
+font-size: 20px;
+font-family: 'Permanent Marker', cursive;
+position: relative;
+top:50px;
+color:white;
+
+}
+.telegramh1:hover{
+	opacity: 1;
+	transition: opacity 2s ease-in-out;
+}
+
+
+.youtube{
+	width: 400px;
+	height:400px;
+	border-radius: 5%;
+	background-image:url("youtube-4-xxl.png")   ;
+	background-size: cover;
+	opacity: 70%;
+	border-style: solid;
+	border-color: black;
+	border-width: 8px;	
+	text-align: center;
+	position: relative;
+	bottom: 2065px;
+	left:945px;
+	color: white;
+	font-family: 'Century Gothic',sans-serif;
+	transition: background-image 1s ease-in-out;
+}
+
+.youtube:hover{
+animation-name: example;
+animation-duration: 0.25s;
+box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+background-image: url("youtube-4-xxl.png");
+background-size: cover;
+opacity: 80%;
+transition: background-image 1s ease-in-out;
+width: 410px;
+height:410px;
+}
+
+.youtubeh1{
+opacity: 0;
+transition: opacity 1s ease-in-out;
+width: 400px;
+height:400px;
+font-size: 20px;
+font-family: 'Permanent Marker', cursive;
+position: relative;
+top:50px;
+color:white;
+}
+
+.youtubeh1:hover{
+	opacity: 1;
+	transition: opacity 2s ease-in-out;
+}
+
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: #555555;
+	width: 100%;
+	padding: 0.025px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 16px;
+	letter-spacing: 1px;
+	color: rgb(173, 177, 197);
+	opacity: 60%;
+	text-align: center;
+  }
+  footer span {
+	display: inline-block;
+	min-width: 230px;
+	margin: 10px 0 10px 0;
+	text-align: center;
+  }
+  footer span a {
+	text-decoration: none;
+	color: #02b9fc;
+	transition: all 0.2s ease-in;
+  }
+  footer span a:hover {
+	color: #999;
+  }	
+
+  header {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	background: #555555;
+	width: 100%;
+	padding: 0.025px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 16px;
+	letter-spacing: 1px;
+	color: rgb(173, 177, 197);
+	opacity: 60%;
+	text-align: center;
+  }
+
+
+     
+	
