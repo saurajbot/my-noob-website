@@ -2,10 +2,10 @@ body {
     padding: 0;
     margin: 0;
 	background: linear-gradient(-60deg, hsl(170, 100%, 50%), hsl(231, 100%, 52%), hsla(0, 80%, 53%, 0.808), rgb(255, 0, 136));
-	background-size: 600% 600%;
+	background-size: 400% 400%;
 	animation: gradient 7s ease infinite;
 	height: 100vh;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     box-sizing: border-box;
 }
 @keyframes gradient{ 
@@ -50,8 +50,8 @@ body {
   }
   .box-img:hover{
 	border-radius: 50%;
-	width: 320px;
-	height: 320px;
+	width: 310px;
+	height: 310px;
 	margin-top: 2px;
 	margin-bottom: 2px;
   }
@@ -64,7 +64,7 @@ body {
 	margin-bottom: 1.5px;
   }
     .box h1:hover{
-	font-size: 42px;
+	font-size: 40px;
 	letter-spacing: 5px;
 	font-weight: 100;
 	font-family: 'Dancing Script', cursive;
@@ -92,13 +92,13 @@ body {
 	text-align: justify;
 	font-size: 20px;
     letter-spacing: 1px;
-	#font-family: 'Lobster', cursive;
+	font-family: 'Source Sans Pro', sans-serif;
   }
   .box p:hover{
 	text-align: justify;
 	font-size: 21px;
     letter-spacing: 1px;
-	#font-family: 'Lobster', cursive;
+	font-family: 'Source Sans Pro', sans-serif;
   }
 
 
@@ -272,7 +272,7 @@ color:white;
 	border-width: 8px;	
 	text-align: center;
 	position: relative;
-	bottom: 2065px;
+	bottom: 2060px;
 	left:945px;
 	color: white;
 	font-family: 'Century Gothic',sans-serif;
@@ -289,6 +289,7 @@ opacity: 80%;
 transition: background-image 1s ease-in-out;
 width: 410px;
 height:410px;
+bottom: 2070px;
 }
 
 .youtubeh1{
@@ -319,7 +320,7 @@ footer {
 	font-family: 'Permanent Marker', cursive;
 	font-size: 16px;
 	letter-spacing: 1px;
-	color: rgb(173, 177, 197);
+	color: black;
 	opacity: 60%;
 	text-align: center;
   }
@@ -348,11 +349,161 @@ footer {
 	font-family: 'Permanent Marker', cursive;
 	font-size: 16px;
 	letter-spacing: 1px;
-	color: rgb(173, 177, 197);
+	color: black;
 	opacity: 60%;
 	text-align: center;
   }
 
+.bot1{
+	width: 200px;
+	height:200px;
+	border-radius: 50%;
+	background-image:url(" bot-1.jpg")   ;
+	background-size: cover;
+	opacity: 70%;
+	border-style: solid;
+	border-color: black;
+	border-width: 8px;
+    position: relative;
+    bottom: 2710px;
+	left: 500px;
+	color: rgb(240, 128, 128);
+	text-align: center;
+	font-family: 'Century Gothic',sans-serif;
+	transition: background-image 1s ease-in-out;
+}
 
-     
-	
+.bot1:hover{
+animation-name: example;
+animation-duration: 0.25s;
+box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+background-image: url(" bot-1.jpg");
+background-size: cover;
+opacity: 80%;
+transition: background-image 1s ease-in-out;
+width: 195px;
+height:195px;
+}
+.bot1h1{
+opacity: 0;
+transition: opacity 1s ease-in-out;
+width: 200px;
+height:200px;
+font-size: 20px;
+font-family: 'Permanent Marker', cursive;
+position: relative;
+top:50px;
+color:rgb(240, 128, 128);
+}
+.bot1h1:hover{
+	opacity: 1;
+	transition: opacity 2s ease-in-out;
+}
+.a:link{
+	text-decoration: none;
+}
+.a:active{
+	text-decoration: none;
+}
+.a:visited{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+.my_grp{
+	width: 200px;
+	height:200px;
+	border-radius: 50%;
+	background-image:url("my_grp.jpg")   ;
+	background-size: cover;
+	opacity: 70%;
+	border-style: solid;
+	border-color: black;
+	border-width: 8px;
+	text-align: center;
+    position: relative;
+    bottom: 2930px;
+	left:820px;
+	color: rgb(240, 128, 128);
+	font-family: 'Century Gothic',sans-serif;
+	transition: background-image 1s ease-in-out;
+
+}
+
+.my_grp:hover{
+animation-name: example;
+animation-duration: 0.25s;
+box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+background-image: url("my_grp.jpg");
+background-size: cover;
+opacity: 80%;
+transition: background-image 1s ease-in-out;
+width: 195px;
+height:195px;
+}
+.my_grph1{
+opacity: 0;
+transition: opacity 1s ease-in-out;
+width: 200px;
+height:200px;
+font-size: 20px;
+font-family: 'Permanent Marker', cursive;
+position: relative;
+top:50px;
+color:rgb(240, 128, 128);
+
+}
+.my_grph1:hover{
+	opacity: 1;
+	transition: opacity 2s ease-in-out;
+}
+
+.my_channel{
+	width: 200px;
+	height:200px;
+	border-radius: 50%;
+	background-image:url("my_channel.jpg")   ;
+	background-size: cover;
+	opacity: 70%;
+	border-style: solid;
+	border-color: black;
+	border-width: 8px;
+	text-align: center;
+    position: relative;
+    bottom: 3145px;
+	left:1140px;
+	color: rgb(240, 128, 128);
+	font-family: 'Century Gothic',sans-serif;
+	transition: background-image 1s ease-in-out;
+
+}
+
+.my_channel:hover{
+animation-name: example;
+animation-duration: 0.25s;
+box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+background-image: url("my_channel.jpg");
+background-size: cover;
+opacity: 80%;
+transition: background-image 1s ease-in-out;
+width: 195px;
+height:195px;
+}
+.my_channelh1{
+opacity: 0;
+transition: opacity 1s ease-in-out;
+width: 200px;
+height:200px;
+font-size: 20px;
+font-family: 'Permanent Marker', cursive;
+position: relative;
+top:50px;
+color:rgb(240, 128, 128);
+
+}
+.my_channelh1:hover{
+	opacity: 1;
+	transition: opacity 2s ease-in-out;
+}
