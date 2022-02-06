@@ -126,7 +126,16 @@
   <div class="tuna"></div>
 </div>
 
-<div class="background">
+<div class="background"></div>
+<div class="button">
+<button onClick="scrollToBottom()"></button>
+<script>
+scrollingElement = (document.scrollingElement || document.body)
+function scrollToBottom () {
+   scrollingElement.scrollTop = scrollingElement.scrollHeight;
+}
+</script>
 </div>
+
 </body>
 </html>

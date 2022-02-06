@@ -625,3 +625,25 @@ body {
     #d2d2d2 url(http://stash.rachelnabors.com/24ways2012/background_clouds.png);
 }
 
+button{
+position: fixed;
+bottom: 83px;
+width: 65px;
+height: 65px;
+padding: 0.025px;
+font-size: 12px;
+letter-spacing: 1px;
+color: black;
+opacity: 60%;
+border-radius: 50%;
+right: 20px;
+background-image: url("down2.png");
+background-size: cover;
+z-index: 5;
+}
+
+button::hover{
+opacity: 90%;
+width: 60px;
+height: 60px;
+}
